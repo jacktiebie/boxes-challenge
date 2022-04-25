@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+    background-color: rgba(173, 216, 230, 0.319);
+    border-radius: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
